@@ -36,7 +36,7 @@
       php -S localhost:8000 -t web
       ```
 
-Agora, o projeto deverá estar acessível em `http://localhost:8000`.
+Agora, o projeto deverá estar acessível em `http://localhost:8000` Utlize usuário Admin e senha teste.
 
 
 
