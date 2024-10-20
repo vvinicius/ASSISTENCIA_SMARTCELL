@@ -1,3 +1,46 @@
+# Instruções para Configuração do Projeto
+
+1. **Extrair na pasta `htdocs` do XAMPP**:
+    - Extraia o projeto para a pasta `C:\xampp\htdocs` (ou o diretório onde o XAMPP foi instalado).
+
+2. **Ativar o MySQL e o Apache no XAMPP**:
+    - Abra o XAMPP Control Panel.
+    - Clique em "Start" para **Apache** e **MySQL**.
+
+3. **Criar o banco de dados**:
+    - Acesse `http://localhost/phpmyadmin`.
+    - Clique em **Databases**.
+    - Crie um banco de dados com o nome **smartcell**.
+
+4. **Instalar o Composer**:
+    - Verifique se o Composer está instalado rodando o comando `composer -v` no terminal.
+    - Caso não esteja instalado, [baixe e instale o Composer](https://getcomposer.org/download/).
+
+5. **Rodar o comando `composer up`**:
+    - No terminal, navegue até o diretório do projeto (dentro de `htdocs`).
+    - Execute o comando:
+      ```bash
+      composer up
+      ```
+
+6. **Rodar o comando `php yii migrate`**:
+    - Execute o comando para aplicar as migrações:
+      ```bash
+      php yii migrate
+      ```
+
+7. **Rodar o servidor local com PHP**:
+    - Para iniciar o servidor local, execute:
+      ```bash
+      php -S localhost:8000 -t web
+      ```
+
+Agora, o projeto deverá estar acessível em `http://localhost:8000`.
+
+
+
+
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
