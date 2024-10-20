@@ -1,4 +1,5 @@
 # Instruções para Configuração do Projeto
+[Acessar documento pdf do projeto](Trabalho_final_DSC.pdf)
 
 1. **Extrair na pasta `htdocs` do XAMPP**:
     - Extraia o projeto para a pasta `C:\xampp\htdocs` (ou o diretório onde o XAMPP foi instalado).
