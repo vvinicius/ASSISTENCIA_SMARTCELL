@@ -27,7 +27,7 @@ class m241017_201435_create_usuario_table extends Migration
         $this->insert('{{%usuario}}', [
             'nome' => 'Admin',
             'email' => 'admin@email.com',
-            'password' => sha1('admin123'),
+            'password' => '2e6f9b0d5885b6010f9167787445617f553a735f',
             'cpf' => 123456789,
             'authKey' => Yii::$app->getSecurity()->generateRandomString(),
             'accessToken' => Yii::$app->getSecurity()->generateRandomString(),
